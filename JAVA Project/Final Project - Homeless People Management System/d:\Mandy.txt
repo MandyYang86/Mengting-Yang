@@ -1,0 +1,2 @@
+Name: Mandy ID: 3 Gender: Female Age: 23 
+Height: 166 Weight: 65 BloodPressure: 93 Disease: Flu

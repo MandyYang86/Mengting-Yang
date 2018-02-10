@@ -1,0 +1,254 @@
+.html{
+    overflow-x:hidden;
+    overflow-y: auto;
+}
+
+
+/*Page 1*/
+.textandpicture1{
+    background-size: 1410px 670px;
+    background:url(large-first.jpg);
+    width: 1410px;
+}
+
+.landings{
+    font-size: 16px;
+    font-style: italic;
+    color: white;
+    text-align: left;
+    padding-left: 50px;
+    padding-top:80px;
+    font-family:Zapfino;
+}
+
+.workfeature{
+    font-size: 15px;
+    color: white;
+    font-family: "Hiragino Sans GB";
+    float: right;
+    position:relative;
+    padding-right: 50px;
+    margin-top: 25px;
+    letter-spacing:2px;
+}
+
+.lorem{
+    text-align: center;
+    font-family:AppleGothic;
+    padding-top:30px;
+    color: white;
+}
+
+.biglorem{
+    font-size: 70px;
+    margin:15px 0px;
+    letter-spacing:3px;
+}
+
+.smalllorem{
+    font-size: 20px;
+    opacity:0.5;
+    letter-spacing:2px;
+}
+
+.divbtnviewproject{
+    text-align: center;
+}
+
+.btnview{
+    background-color:cornflowerblue;
+    font-family:AppleGothic;
+    border: none;
+    color: white;
+    letter-spacing:2px;
+    padding: 20px 32px;
+    text-align: center;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 30px 2px;
+    cursor: pointer;
+}
+
+.blank{
+    margin:170px 0 0 0;
+}
+
+/*Page 2*/
+.page2{
+    width: 1410px;
+}
+
+.lorem2row{
+    text-align: left;
+    font-family:AppleGothic;
+    margin-left: 70px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 38px;
+    letter-spacing:2px;
+    padding-right: 40px;
+    margin-bottom: 0;
+}
+
+.loremp2{
+    font-size: 50px;
+}
+
+.afterlorem2{
+    font-size: 20px;
+    letter-spacing:2px;
+    color:gray;
+}
+
+.page2img {
+    display: inline-block;
+    opacity:0.8;
+    margin-bottom: 0;
+}
+
+.blank2{
+    margin:50px 0 0 0;
+}
+
+/*Page 3*/
+.page3{
+    background-color: #efefef;
+    border: 0;
+    margin-bottom: 0;
+    padding: 0;
+    margin-top: 0;
+    width: 1410px;
+}
+
+.page3text{
+    text-align: center;
+    font-family:AppleGothic;
+    letter-spacing:2px;
+}
+
+.page3title{
+    padding-top: 80px;
+    font-size: 40px;
+    margin: 0;
+}
+
+.page3content{
+    font-size: 20px;
+    color: darkgray;
+}
+
+.page3table{
+    text-align: center;
+    font-family:AppleGothic;
+    letter-spacing:2px;
+    margin-left: 180px;
+    margin-top: 60px;
+}
+
+.table{
+    border-spacing:30px;
+}
+
+.peace{
+    font-size: 18px;
+    font-weight:600;
+}
+
+.afterpeace{
+    font-size: 15px;
+    color: darkgray;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.circle{
+    /*width: 100px;*/
+    /*height: 100px;*/
+    /*background:royalblue;*/
+    /*-moz-border-radius: 50px;*/
+    /*-webkit-border-radius: 50px;*/
+    /*border-radius: 50px;*/
+    margin-left: 20px;
+
+}
+
+.td1{
+    border: 1px solid darkgrey;
+    background-color:white;
+    width: 310px;
+    height: 360px;
+}
+
+/*Page 4*/
+.page4{
+    background-size: 1410px 670px;
+    background:url(page4back.jpg);
+    opacity:0.7;
+    text-align: center;
+    font-family:AppleGothic;
+    letter-spacing:2px;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+    border: 0;
+    width: 1410px;
+}
+
+.music{
+    padding-top: 180px;
+}
+
+.casestudy{
+    font-size: 40px;
+    padding-top: 100px;
+    margin: 0;
+}
+
+.page4text{
+    font-size: 15px;
+    padding-bottom: 170px;
+    margin:50px 0 0 0;
+    border: 0;
+}
+
+/*Page 5*/
+.page5samll{
+    background-color: #efefef;
+    margin-top: 0;
+    width: 1410px;
+}
+
+/*Page 6*/
+.lorem3row{
+    text-align: left;
+    font-family:AppleGothic;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 40px;
+    padding-left: 60px;
+    letter-spacing:2px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*Page 6*/
+.bottom{
+    margin-top: 0;
+    background:royalblue;
+    text-align: center;
+    height: 150px;
+    width: 1410px;
+}
+
+.bottomtext{
+    margin-top: 0;
+    color: white;
+    font-family:AppleGothic;
+    font-size: 20px;
+    padding-top: 70px;
+    opacity:0.7;
+    height: 60px;
+}
