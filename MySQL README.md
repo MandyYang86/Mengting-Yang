@@ -32,7 +32,7 @@ One Order must have one or more Order Item.
 For the Order Item, from the Supplier aspect, one Order Item will be one Product of the Supplier.
 From the Supermarket aspect, after bought these Order Item, they will become the Inventory Item of the Supermarket
 
-####2)Supermarket and Customer
+#### 2)Supermarket and Customer
 One Supermarket can have Orders with many Customers and one Customer can also have Orders with many different Supermarkets.
 One Order must have at least one Order Item, and actually, the Order Item is the Inventory Item of the Supermarket.
 
