@@ -36,7 +36,6 @@ Save the external links(urls), textual description, a boolean for valid, and the
 ## Assignment 2
 ### Data Source Link:
 https://finance.yahoo.com/quote/ORCL/history?p=ORCL
-Cluster the data and create predictive linear and logistic models.
 
 #### Cluster data:
 Use K-means and DBSCAN to cluster data.
