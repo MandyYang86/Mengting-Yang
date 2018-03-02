@@ -47,4 +47,5 @@ Use regularization and check if it helps.
 
 #### Generate a logistic model:
 Find a significant logistic linear model of data and create a logistic linear model.
+<br>
 Cross-validate the model and give the evaluation.
