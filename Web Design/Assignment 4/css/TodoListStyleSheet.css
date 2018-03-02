@@ -1,0 +1,289 @@
+html{
+    background-color:ghostwhite;
+}
+
+
+h1{
+    font-family:Verdana;
+    font-size: 60px;
+    color:lightskyblue;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#icon{
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+#header{
+    text-align: left;
+}
+
+#navaigationbar{
+    list-style-type: none;
+    background-color:gainsboro;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    height: 27px;
+}
+
+.navi{
+    display: inline;
+    font-family:Verdana;
+    font-size: 22px;
+    margin:0;
+
+}
+
+li a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:gainsboro;
+    color:white;
+    text-decoration:none;
+}
+
+
+li a:hover{
+    background-color:darkgray;
+}
+
+#login{
+    display: inline-block;
+    text-align: right;
+    vertical-align: bottom;
+    color:darkgray;
+    font-family: Courier;
+    margin-right: 20px;
+    font-size:32px;
+}
+
+.loginput{
+    height: 30px;
+    width: 150px;
+    font-size: 28px;
+    color:darkgray;
+    font-family: Courier;
+}
+
+.loginbtn{
+    display: inline-block;
+    text-align: right;
+    vertical-align: bottom;
+    -moz-box-shadow:inset 0px 39px 0px -24px #e67a73;
+    -webkit-box-shadow:inset 0px 39px 0px -24px #e67a73;
+    box-shadow:inset 0px 39px 0px -24px #e67a73;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e4685d), color-stop(1, #eb675e));
+    background:-moz-linear-gradient(top, #e4685d 5%, #eb675e 100%);
+    background:-webkit-linear-gradient(top, #e4685d 5%, #eb675e 100%);
+    background:-o-linear-gradient(top, #e4685d 5%, #eb675e 100%);
+    background:-ms-linear-gradient(top, #e4685d 5%, #eb675e 100%);
+    background:linear-gradient(to bottom, #e4685d 5%, #eb675e 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e4685d', endColorstr='#eb675e',GradientType=0);
+    background-color:#e4685d;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+    border:2px solid #ffffff;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    padding:10px 21px;
+    text-decoration:none;
+    text-shadow:2px 2px 0px #b23e35;
+}
+
+#addNote{
+    -moz-box-shadow:inset 0px 1px 0px 0px #dcecfb;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #dcecfb;
+    box-shadow:inset 0px 1px 0px 0px #dcecfb;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bddbfa), color-stop(1, #80b5ea));
+    background:-moz-linear-gradient(top, #bddbfa 5%, #80b5ea 100%);
+    background:-webkit-linear-gradient(top, #bddbfa 5%, #80b5ea 100%);
+    background:-o-linear-gradient(top, #bddbfa 5%, #80b5ea 100%);
+    background:-ms-linear-gradient(top, #bddbfa 5%, #80b5ea 100%);
+    background:linear-gradient(to bottom, #bddbfa 5%, #80b5ea 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bddbfa', endColorstr='#80b5ea',GradientType=0);
+    background-color:#bddbfa;
+    -moz-border-radius:11px;
+    -webkit-border-radius:11px;
+    border-radius:11px;
+    border:2px solid #84bbf3;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:11px 26px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #528ecc;
+}
+
+#addNote:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #80b5ea), color-stop(1, #bddbfa));
+    background:-moz-linear-gradient(top, #80b5ea 5%, #bddbfa 100%);
+    background:-webkit-linear-gradient(top, #80b5ea 5%, #bddbfa 100%);
+    background:-o-linear-gradient(top, #80b5ea 5%, #bddbfa 100%);
+    background:-ms-linear-gradient(top, #80b5ea 5%, #bddbfa 100%);
+    background:linear-gradient(to bottom, #80b5ea 5%, #bddbfa 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#80b5ea', endColorstr='#bddbfa',GradientType=0);
+    background-color:#80b5ea;
+}
+
+
+/* Style the list items */
+#myUL li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    font-family:Arial;
+
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 20%;
+
+    float:left;
+    display: inline-block;
+}
+
+
+#myDIV{
+    margin-top: 0;
+}
+/* Set all odd list items to a different color (zebra-stripes) */
+#myUL li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+/* Darker background-color on hover */
+#myUL li:hover {
+    background: #ddd;
+}
+
+/* When clicked on, add a background color and strike out text */
+#myUL li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+/* Add a "checked" mark when clicked on */
+#myUL li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+
+}
+
+/* Style the close button */
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+    background-color:lightskyblue;
+    color: white;
+    height: 22px;
+}
+
+/* Style the header */
+.header {
+    background-color: lightskyblue;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+
+/* Clear floats after the header */
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the input */
+#myInput_Title {
+    border: #888888;
+    width: 15%;
+    padding: 10px;
+    float: left;
+    font-size: 25px;
+    margin: 5px;
+}
+
+#myInput_Item {
+    border: #888888;
+    width: 15%;
+    padding: 10px;
+    float: left;
+    font-size: 25px;
+    margin: 5px;
+}
+
+#myIput_Author{
+    border: #888888;
+    width: 15%;
+    padding: 10px;
+    float: left;
+    font-size: 25px;
+    margin: 5px;
+}
+
+#myIput_Date {
+    border: #888888;
+    width: 20%;
+    padding: 10px;
+    float: left;
+    font-size: 20px;
+    margin: 5px;
+    font-family:Verdana;
+    color: #888888;
+}
+
+/* Style the "Add" button */
+.addBtn {
+    padding: 10px;
+    width: 15%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family:Verdana;
+    text-shadow: 2px 2px 2px white ;
+    margin: 5px;
+}
+
+.addBtn:hover {
+    background-color: #bbb;
+}
+

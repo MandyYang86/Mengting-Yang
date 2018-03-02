@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo List Website - Corgi</title>
+    <link rel="stylesheet" href="css/TodoListStyleSheet.css">
+
+
+    <div id="headset">
+    <header>
+        <div id="header">
+        <h1> Corgi Todo List </h1>
+            &nbsp;&nbsp;
+        <img src="icon/calendar.png" id="icon" height="64" width="64"/>
+            <form id="login">
+                <b>USER NAME</b>
+                <input class="loginput" value="Corgi" onfocus="this.value=''"
+                       onblur="if(this.value==''){this.value='Corgi'}"type="text" name="myName">
+
+                <b>PASSWORD</b>
+                <input class="loginput" type="password" name="pass">
+
+                <button class="loginbtn" type="button" onclick="alert('Log In Sucessful! ')">Log In</button>
+                <button class="loginbtn" type="button">Forget Password</button>
+            </form>
+        </div>
+
+    </header>
+        <br>
+    <ul id="navaigationbar">
+        <li class="navi"><a href=""><b>Home</b></a></li>
+        <li class="navi"><a href=""><b>My Todo List</b></a></li>
+        <li class="navi"><a href=""><b>Share</b></a></li>
+        <li class="navi"><a href=""><b>My Account</b></a></li>
+        <li class="navi"><a href=""><b>About</b></a></li>
+    </ul>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+
+
+</head>
+<body>
+
+<div id="myDIV" class="header">
+    <input type="text" id="myInput_Title" placeholder="Title...">
+    <input type="text" id="myInput_Item" placeholder="Item...">
+    <input type="text" id="myIput_Author" placeholder="Author...">
+    <input type="date" id="myIput_Date" name="user_date" placeholder="Time..." >
+    <span onclick="newElement()" class="addBtn">Add</span>
+</div>
+
+<ul id="myUL">
+
+</ul>
+
+
+</body>
+
+
+<script src="js/TodoListJS.js"></script>
+
+
+
+</html>

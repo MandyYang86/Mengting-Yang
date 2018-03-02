@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SpreadSheet</title>
+
+    <div id="header">
+        <h1> Corgi Spread Sheet </h1>
+        <img src="icons8-corgi-80.png" id="icon" height="80" width="80"/>
+    </div>
+
+    <link rel="stylesheet" href="SpreadSheetStyleSheet.css">
+    <script src="SpreadSheetJavaScript.js"></script>
+
+</head>
+<body>
+<div class="plusANDminusRow">
+
+    <div class="operrow">
+        <input type="button" class="myButton" value="Add Row" onclick="addRowFunction()"/>
+        <input type="button" class="myButton" value="Add Column" onclick="addColumnFunction()"/>
+    </div>
+
+
+    <div class="opercol">
+        <input type="button" class="myButton" value="Delete Row" onclick="deleteRowFunction()"/>
+        <input type="button" class="myButton" value="Delete Column" onclick="deleteColumnFunction()"/>
+    </div>
+
+    <div class="clear">
+        <input type="button" class="myButton" value="Clear" onclick="clearFunction()"/>
+    </div>
+
+    <div class="export">
+        <input type="button" class="myButton" value="Export" onclick="exportTableToCSV('corgi.csv')"/>
+    </div>
+
+</div>
+
+<div class="sheet">
+    <table id="table">
+
+        <tr class="RowsInTable" >
+            <th class="tdInRowHead">
+                <input type="button" class="firstRowBtn" value=""/>
+            </th>
+
+            <th class="tdInRowHead" >
+                <input type="button" class="firstRowBtn" value="A" onclick="getTheSelectedCol(this)"/>
+            </th>
+
+            <th class="tdInRowHead" >
+                <input type="button" class="firstRowBtn" value="B" onclick="getTheSelectedCol(this)"/>
+            </th>
+
+            <th class="tdInRowHead">
+                <input type="button" class="firstRowBtn" value="C" onclick="getTheSelectedCol(this)"/>
+            </th>
+
+            <th class="tdInRowHead" >
+                <input type="button" class="firstRowBtn" value="D" onclick="getTheSelectedCol(this)"/>
+            </th>
+
+            <th class="tdInRowHead">
+                <input type="button" class="firstRowBtn" value="E" onclick="getTheSelectedCol(this)"/>
+            </th>
+        </tr>
+
+        <tr class="RowsInTable">
+            <td class="tdInRow"  >
+                <input type="button" class="firstColBtn" value="1" onclick="getTheSelectedRow(this)"/>
+            </td>
+
+            <td class="tdInRow">
+                <input type="text" class="inputTable" />
+            </td>
+
+            <td class="tdInRow">
+                <input type="text" class="inputTable" />
+            </td>
+
+            <td class="tdInRow">
+                <input type="text" class="inputTable" />
+            </td>
+
+            <td class="tdInRow">
+                <input type="text" class="inputTable" />
+            </td>
+
+            <td class="tdInRow">
+                <input type="text" class="inputTable" />
+            </td>
+        </tr>
+
+        <tr class="RowsInTable" >
+            <td class="tdInRow" >
+                <input type="button" class="firstColBtn" value="2" onclick="getTheSelectedRow(this)"/>
+            </td>
+
+            <td class="tdInRow">
+                <input type="text" class="inputTable" />
+            </td>
+
+            <td class="tdInRow">
+                <input type="text" class="inputTable" />
+            </td>
+
+            <td class="tdInRow">
+                <input type="text" class="inputTable" />
+            </td>
+
+            <td class="tdInRow">
+                <input type="text" class="inputTable" />
+            </td>
+
+            <td class="tdInRow">
+                <input type="text" class="inputTable" />
+            </td>
+        </tr>
+
+        <tr class="RowsInTable"  >
+            <td class="tdInRow">
+                <input type="button" class="firstColBtn" value="3" onclick="getTheSelectedRow(this)"/>
+            </td>
+
+            <td class="tdInRow">
+                <input type="text" class="inputTable" />
+            </td>
+
+            <td class="tdInRow">
+                <input type="text" class="inputTable" />
+            </td>
+
+            <td class="tdInRow">
+                <input type="text" class="inputTable" />
+            </td>
+
+            <td class="tdInRow">
+                <input type="text" class="inputTable" />
+            </td>
+
+            <td class="tdInRow">
+                <input type="text" class="inputTable" />
+            </td>
+        </tr>
+
+        <tr class="RowsInTable" >
+            <td class="tdInRow">
+                <input type="button" class="firstColBtn" value="4"  onclick="getTheSelectedRow(this)"/>
+            </td>
+
+            <td class="tdInRow">
+                <input type="text" class="inputTable" />
+            </td>
+
+            <td class="tdInRow">
+                <input type="text" class="inputTable" />
+            </td>
+
+            <td class="tdInRow">
+                <input type="text" class="inputTable" />
+            </td>
+
+            <td class="tdInRow">
+                <input type="text" class="inputTable" />
+            </td>
+
+            <td class="tdInRow">
+                <input type="text" class="inputTable" />
+            </td>
+        </tr>
+
+    </table>
+</div>
+
+<div class="algebraicOperations">
+    <input type="input" class="aloper" id="firstcell" placeholder="First Cell" onclick="choosefirstCell()"/>
+    <input type="input" class="aloper" id="opera" placeholder="+/-/*//"/>
+    <input type="input" class="aloper" id="secondcell" placeholder="Second Cell" onclick="chooseSecondCell()"/>
+    <input type="input" class="aloper" id="result" placeholder="Result" onclick="calculateResult()"/>
+</div>
+
+</body>
+</html>
