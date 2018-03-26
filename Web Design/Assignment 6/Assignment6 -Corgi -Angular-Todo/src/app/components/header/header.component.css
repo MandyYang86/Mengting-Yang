@@ -1,0 +1,74 @@
+h1{
+  font-family:Verdana;
+  font-size: 40px;
+  color:lightskyblue;
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#header{
+  text-align: center;
+}
+
+li a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color:gainsboro;
+  color:white;
+  text-decoration:none;
+}
+
+
+li a:hover{
+  background-color:darkgray;
+}
+
+#login{
+  display: inline-block;
+  text-align: center;
+  vertical-align: bottom;
+  color:darkgray;
+  font-family: Courier;
+  margin-left: 0;
+  font-size:20px;
+}
+
+.loginput{
+  height: 30px;
+  width: 150px;
+  font-size: 20px;
+  color:darkgray;
+  font-family: Courier;
+}
+
+.loginbtn{
+  display: inline-block;
+  text-align: right;
+  vertical-align: bottom;
+  -moz-box-shadow:inset 0px 39px 0px -24px #e67a73;
+  -webkit-box-shadow:inset 0px 39px 0px -24px #e67a73;
+  box-shadow:inset 0px 39px 0px -24px #e67a73;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e4685d), color-stop(1, #eb675e));
+  background:-moz-linear-gradient(top, #e4685d 5%, #eb675e 100%);
+  background:-webkit-linear-gradient(top, #e4685d 5%, #eb675e 100%);
+  background:-o-linear-gradient(top, #e4685d 5%, #eb675e 100%);
+  background:-ms-linear-gradient(top, #e4685d 5%, #eb675e 100%);
+  background:linear-gradient(to bottom, #e4685d 5%, #eb675e 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e4685d', endColorstr='#eb675e',GradientType=0);
+  background-color:#e4685d;
+  -moz-border-radius:8px;
+  -webkit-border-radius:8px;
+  border-radius:8px;
+  border:2px solid #ffffff;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:15px;
+  padding:10px 21px;
+  text-decoration:none;
+  text-shadow:2px 2px 0px #b23e35;
+}

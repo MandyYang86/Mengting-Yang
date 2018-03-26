@@ -1,0 +1,198 @@
+/*Head Part*/
+h1{
+    font-family:Verdana;
+    font-size: 60px;
+    color:lightskyblue;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#icon{
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+#header{
+    text-align: center;
+}
+
+/*Operation Part*/
+
+.plusANDminusRow{
+    text-align: center;
+    margin-left: 210px;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.opercol{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.operrow{
+    display: inline-block;
+    margin-right: 30px;
+
+}
+
+.export{
+    display: inline-block;
+
+}
+
+.clear{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.myButton {
+    -moz-box-shadow:inset -1px 0px 6px 2px #bbdaf7;
+    -webkit-box-shadow:inset -1px 0px 6px 2px #bbdaf7;
+    box-shadow:inset -1px 0px 6px 2px #bbdaf7;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5));
+    background:-moz-linear-gradient(top, #79bbff 5%, #378de5 100%);
+    background:-webkit-linear-gradient(top, #79bbff 5%, #378de5 100%);
+    background:-o-linear-gradient(top, #79bbff 5%, #378de5 100%);
+    background:-ms-linear-gradient(top, #79bbff 5%, #378de5 100%);
+    background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5',GradientType=0);
+    background-color:#79bbff;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:15px;
+    border:1px solid #84bbf3;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Verdana;
+    font-size:15px;
+    font-weight:bold;
+    padding:11px 32px;
+    text-decoration:none;
+    text-shadow:1px 5px 6px #528ecc;
+}
+.myButton:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff));
+    background:-moz-linear-gradient(top, #378de5 5%, #79bbff 100%);
+    background:-webkit-linear-gradient(top, #378de5 5%, #79bbff 100%);
+    background:-o-linear-gradient(top, #378de5 5%, #79bbff 100%);
+    background:-ms-linear-gradient(top, #378de5 5%, #79bbff 100%);
+    background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff',GradientType=0);
+    background-color:#378de5;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+
+
+
+/*Table Part*/
+.sheet{
+    text-align: center;
+}
+
+#table{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+.tdInRowHead{
+    border: 3px solid black;
+    width: 80px;
+    height: 30px;
+    background-color: gray;
+}
+
+.tdInRowHead:hover{
+    background-color: lightgray;
+}
+
+.tdInRow{
+    border: 3px solid black;
+    width: 80px;
+    height: 30px;
+}
+
+table tr td:first-child{
+    border: 3px solid black;
+    background-color: gray;
+    font-size: 28px;
+    font-family: AppleGothic;
+}
+
+table tr td:first-child:hover{
+    background-color: lightgray;
+}
+
+.inputTable{
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 28px;
+    font-family: AppleGothic;
+    color: lightskyblue;
+}
+
+.firstRowBtn{
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    font-size: 24px;
+    font-family: AppleGothic;
+}
+
+.firstColBtn{
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    font-size: 24px;
+    font-family: AppleGothic;
+}
+
+/*Algebraic Operations*/
+.algebraicOperations{
+    text-align: center;
+}
+
+.aloper{
+    height: 30px;
+    font-size: 25px;
+    font-family: AppleGothic;
+    color: lightskyblue;
+    border-color: lightskyblue;
+    margin-top: 20px;
+}
+
+#firstcell{
+    width: 150px;
+}
+
+#opera{
+    width: 100px;
+}
+
+#secondcell{
+    width: 150px;
+}
+
+#result{
+    width: 100px;
+}
