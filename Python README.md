@@ -49,3 +49,22 @@ Use regularization and check if it helps.
 Find a significant logistic linear model of data and create a logistic linear model.
 <br>
 Cross-validate the model and give the evaluation.
+
+## Assignment 3
+### Data Source:
+Data in Final Projects
+
+#### Structured Streaming:
+Set up a Structured Streaming analysis of project data with a set of 10+ SQL questions that involve joins, order by, group by and aggregate statements using Spark SQL.
+
+#### MLlib and Machine Learning:
+Apply a MLlib and Machine Learning analysis of project data.
+
+#### GraphX and GraphFrames:
+Set up a GraphX and GraphFrames analysis of project data.
+
+## Final Project Progress Report
+### Data Source:
+Data in Final Projects
+
+#### Report what we have done
