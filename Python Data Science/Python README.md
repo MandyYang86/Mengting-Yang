@@ -1,7 +1,7 @@
 # Mengting-Yang
 NEU - Information System - Mengting Yang 
 
-## Assignment 1
+## [Assignment 1](https://github.com/MandyYang86/Mengting-Yang/tree/master/Python%20Data%20Science/Assignment%201%20-Mengting%20Yang)
 ### Data Source Link:
 Part A: https://finance.yahoo.com/quote/ORCL/history?p=ORCL
 Part B: https://www.economist.com/sections/economics
@@ -33,7 +33,7 @@ Write a function to check whether the link is valid.
 <br>
 Save the external links(urls), textual description, a boolean for valid, and the last vaild datetime check to an excel file.
 
-## Assignment 2
+## [Assignment 2](https://github.com/MandyYang86/Mengting-Yang/tree/master/Python%20Data%20Science/Assignment%202%20-Mengting%20Yang)
 ### Data Source Link:
 https://finance.yahoo.com/quote/ORCL/history?p=ORCL
 
@@ -50,7 +50,7 @@ Find a significant logistic linear model of data and create a logistic linear mo
 <br>
 Cross-validate the model and give the evaluation.
 
-## Assignment 3
+## [Assignment 3](https://github.com/MandyYang86/Mengting-Yang/tree/master/Python%20Data%20Science/Assignment%203%20-%20Mengting%20Yang)
 ### Data Source:
 Data in Final Projects
 
@@ -63,8 +63,15 @@ Apply a MLlib and Machine Learning analysis of project data.
 #### GraphX and GraphFrames:
 Set up a GraphX and GraphFrames analysis of project data.
 
-## Final Project Progress Report
+## [Assignment 4](https://github.com/MandyYang86/Mengting-Yang/tree/master/Python%20Data%20Science/Assignment%204%20-%20Mengting%20Yang)
 ### Data Source:
 Data in Final Projects
 
-#### Report what we have done
+#### Requirement:
+Apply a Deep Learning model to your project data (if possible).
+
+## Final Project 
+### [GithubL Link](https://github.com/MandyYang86/Ride-Optimization)
+Ride-Optimization
+
+#### [Read Me](https://github.com/MandyYang86/Ride-Optimization/blob/master/README.md)
