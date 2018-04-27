@@ -4,6 +4,7 @@ NEU - Information System - Mengting Yang
 ## [Assignment 1](https://github.com/MandyYang86/Mengting-Yang/tree/master/Python%20Data%20Science/Assignment%201%20-Mengting%20Yang)
 ### Data Source Link:
 Part A: https://finance.yahoo.com/quote/ORCL/history?p=ORCL
+
 Part B: https://www.economist.com/sections/economics
 
 ### Part A Cleaning and EDA 
@@ -74,4 +75,4 @@ Apply a Deep Learning model to your project data (if possible).
 ### [GithubL Link](https://github.com/MandyYang86/Ride-Optimization)
 Ride-Optimization
 
-#### [Read Me](https://github.com/MandyYang86/Ride-Optimization/blob/master/README.md)
+### [Read Me](https://github.com/MandyYang86/Ride-Optimization/blob/master/README.md)
