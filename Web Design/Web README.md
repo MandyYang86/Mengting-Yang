@@ -27,16 +27,16 @@ You can perform simple algebraic operations (+, -, *, /) with cell references.
 You can export the spreadsheet in CSV format.
 
 ### [Assignment 6](https://github.com/MandyYang86/Mengting-Yang/tree/master/Web%20Design/Assignment%206/Assignment6%20-Corgi%20-Angular-Todo)
-As a user, I should be able to see a single slide with the white background when I launch the application.
-
-As a user, I should be able to see an add image button/icon to add an image to the slide.
-
-As a user, I should be able to drag & drop the image within the application.
-
-As a user, I should be able to see a text button/icon to add a text object on the slide. 
-
-As a user, I should be able to drag & drop the text object within the application.
-
+See a single slide with the white background when I launch the application.
+<br>
+See an add image button/icon to add an image to the slide.
+<br>
+Drag & drop the image within the application.
+<br>
+See a text button/icon to add a text object on the slide. 
+<br>
+Drag & drop the text object within the application.
+<br>
 ### [Final Assignment](hhttps://github.com/neu-mis-info6150-spring-2018/final-project-loft/tree/master)
 or [this link](https://github.com/MandyYang86/Mengting-Yang/tree/master/Web%20Design/Final%20Project)
 
